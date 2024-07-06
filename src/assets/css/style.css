@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: #262322;
+  --second-color: #FF8552;
+  --third-color: #A8201A;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: var(--third-color);
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: .5px .5px 8px .5px rgb(1, 49, 51);
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+button {
+  border: none;
+  background: var(--second-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: var(--third-color);
+}
+
+.result {
+  font-size: 2em;
+  margin: 40px 0;
+  font-weight: bold;
+  color: var(--second-color);
+}
+
+input[type="number"] {
+width: 45px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  }
+
+  .text-title {
+    display: flex;
+  }
+
+  .alert{
+    display: none;
+    margin: 25px 5px;
+    color: red;
+  }
